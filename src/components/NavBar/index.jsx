@@ -57,9 +57,9 @@ const NavBar = () => {
             <Tag page="Contact" active={page[3]} />
           </div>
         </Link>
-        <Link to="">
+        <a href="../../doc/resume.pdf" target="_blank">
           <span className={"resume"}>Resume</span>
-        </Link>
+        </a>
       </nav>
       <Outlet />
     </Container>
